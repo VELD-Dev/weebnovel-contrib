@@ -1,6 +1,10 @@
 @font-face {
-    font-family: 'Century Gothic';
-    src: url('./fonts/GOTHIC.TTF');
+    font-family: 'Myriad Pro';
+    src: url('/fonts/MYRIAD\ PRO\ REGULAR.TTF');
+}
+@font-face {
+    font-family: 'Tahoma';
+    src: url('/fonts/TAHOMA.TTF');
 }
 
 div.nav-bar{
@@ -15,6 +19,7 @@ div.nav-bar{
     z-index: 100;
 }
 h1.nb-site-name{
+    font-family: 'Myriad Pro' !important;
     color: #fff;
     font-size: 25px;
     font-weight: bold;
@@ -25,7 +30,7 @@ div.nb-titles{
     float: left;
     padding: auto;
     margin: 23px 0 0 20px;
-    font-family: 'Century Gothic' !important;
+    font-family: 'Tahoma' !important;
 }
 div.nb-logo{
     float: left;

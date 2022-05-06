@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'Myriad Pro';
+    src: url('/fonts/MYRIAD\ PRO\ REGULAR.TTF');
+}
+@font-face {
+    font-family: 'Tahoma';
+    src: url('/fonts/TAHOMA.TTF');
+}
+
+h1.weebnovel {
+    font-family: 'Myriad Pro' !important;
+    font-size: 50px;
+    font-weight: bold;
+
+}
