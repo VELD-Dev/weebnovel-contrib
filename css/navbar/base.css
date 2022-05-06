@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Century Gothic';
+    src: url('./fonts/GOTHIC.TTF');
+}
+
+div.nav-bar{
+    width: 100%;
+    height: 80px;
+    background-color: #2e2e2e;
+    border-bottom: 3px solid #5a5a5a;
+    border-radius: 0 0 10px 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+h1.nb-site-name{
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+div.nb-titles{
+    float: left;
+    padding: auto;
+    margin: 23px 0 0 20px;
+    font-family: 'Century Gothic' !important;
+}
+div.nb-logo{
+    float: left;
+    padding: 18px 0 0 9px;
+    width: 48px;
+    height: 48px;
+}
+img.nb-logo{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
