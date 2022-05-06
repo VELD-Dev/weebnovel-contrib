@@ -11,5 +11,15 @@ h1.weebnovel {
     font-family: 'Myriad Pro' !important;
     font-size: 50px;
     font-weight: bold;
+}
 
+h2.subtitle {
+    font-family: 'Tahoma' !important;
+    font-size: 30px;
+    font-weight: bold;
+}
+h3.subtitle {
+    font-family: 'Tahoma' !important;
+    font-size: 20px;
+    font-weight: bold;
 }
