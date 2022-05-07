@@ -75,4 +75,5 @@ button.nb-link:hover{
     background-color: #4e4e4e;
     border-width: 3px;
     transition: 0.5s;
+    cursor: pointer;
 }
