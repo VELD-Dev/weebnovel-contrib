@@ -22,15 +22,20 @@ h1.nb-site-name{
     font-family: 'Myriad Pro' !important;
     color: #fff;
     font-size: 25px;
-    font-weight: bold;
+    font-weight: bolder;
     padding: 0;
     margin: 0;
+}
+color.nb-weeb-color {
+    color: #971212;
+    text-shadow: 0px 0px 1.5px #fff;
 }
 div.nb-titles{
     float: left;
     padding: auto;
     margin: 23px 0 0 20px;
     font-family: 'Tahoma' !important;
+    text-shadow: #000;
 }
 div.nb-logo{
     float: left;
@@ -42,4 +47,27 @@ img.nb-logo{
     width: 100%;
     height: 100%;
     border-radius: 50%;
+}
+div.nb-links{
+    width: 50%;
+    height: 100%;
+    margin-left: 250px; 
+}
+button.nb-link{
+    font-family: 'Myriad Pro' !important;
+    font-size: 20px;
+    background-color: #00000000;
+    width: 150px;
+    height: 100%;
+    border-style: solid;
+    border-color: #00000000 #00000000 #fff #00000000;
+    border-width: 0px;
+}
+button.nb-link:not(:hover) {
+    transition: 0.5s;
+}
+button.nb-link:hover{
+    background-color: #4e4e4e;
+    border-width: 3px;
+    transition: 0.5s;
 }
