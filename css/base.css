@@ -3,6 +3,10 @@
     src: url('/fonts/MYRIAD\ PRO\ REGULAR.TTF');
 }
 @font-face {
+    font-family: 'Myriad Pro Bold';
+    src: url('/fonts/MYRIAD\ PRO\ BOLD.TTF');
+}
+@font-face {
     font-family: 'Tahoma';
     src: url('/fonts/TAHOMA.TTF');
 }
@@ -15,10 +19,13 @@ body.body{
     margin: 0 0 0 0;
 }
 
+
+
+
 h1.weebnovel {
-    font-family: 'Myriad Pro' !important;
+    font-family: 'Myriad Pro Bold' !important;
     font-size: 75px;
-    font-weight: bolder;
+    font-weight: 1100;
     color: #fff;
     text-shadow: 0px 0px 5px #000;
 }
@@ -44,6 +51,47 @@ div.title {
     margin-top: 250px;
     color: #fff;
 }
+
+
+
+div.contribute{
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    margin-top: 55px;
+    width: 60%;
+    color: #fff;
+    font-family: 'Tahoma' !important;
+}
+p.contrib {
+    font-size: 18px;
+    font-weight: bold;
+}
+button.kickstarter {
+    font-family: 'Myriad Pro Bold' !important;
+    font-size: 35px;
+    border-style: solid;
+    border-radius: 25px;
+    border-color: #fff;
+    border-width: 3px;
+    height: 100px;
+    width: 250px;
+    background-color: #13151600;
+    color: #ECEAE9;
+    box-shadow: 0 0 3px #ECEAE9;
+    transition: 1s;
+}
+button.kickstarter:not(:hover) {
+    transition: 1s;
+}
+button.kickstarter:hover {
+    background-color: #ECEAE9;
+    color: #131516;
+    transition: 1s;
+}
+
+
+
 color.weeb-color {
     color: #971212;
     text-shadow: 0px 0px 3px #fff;
