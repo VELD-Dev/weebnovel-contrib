@@ -21,7 +21,6 @@ body.body{
 
 
 
-
 h1.weebnovel {
     font-family: 'Myriad Pro Bold' !important;
     font-size: 75px;
@@ -29,7 +28,11 @@ h1.weebnovel {
     color: #fff;
     text-shadow: 0px 0px 5px #000;
 }
-
+img.logo {
+    width: calc(initial * 0.35);
+    height: calc(initial * 0.35);
+    align-self: center;
+}
 h2.subtitle {
     font-family: 'Tahoma' !important;
     font-size: 40px;
