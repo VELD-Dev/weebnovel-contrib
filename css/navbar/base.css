@@ -14,6 +14,7 @@ div.nav-bar{
     border-bottom: 3px solid #5a5a5a;
     border-radius: 0 0 10px 10px;
     position: fixed;
+    display: flex;
     top: 0;
     left: 0;
     z-index: 100;
@@ -30,14 +31,14 @@ h1.nb-site-name{
 }
 div.nb-titles{
     float: left;
-    padding: auto;
-    margin: 23px 0 0 20px;
+    padding: 50% 0 50% 2px;
+    align-self: center;
     font-family: 'Century Gothic' !important;
     text-shadow: #000;
 }
 div.nb-logo{
     float: left;
-    padding: 18px 0 0 9px;
+    padding: 18px;
     width: 48px;
     height: 48px;
 }
@@ -48,7 +49,7 @@ img.nb-logo{
 div.nb-links{
     width: 50%;
     height: 100%;
-    margin-left: 250px; 
+    margin-left: 25px; 
 }
 button.nb-link{
     font-family: 'Myriad Pro' !important;
